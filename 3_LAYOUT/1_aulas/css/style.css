@@ -1,8 +1,87 @@
+/* XS */
 h1 {
     color: red;
+}
+
+/* SM >= 576px */
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* MD >= 768px */
+@media (min-width: 768px) {
+    h1 {
+        color: green;
+    }
+}
+
+/* LG >= 992px */
+@media (min-width: 992px) {
+    h1 {
+        color: purple;
+    }
+}
+
+/* XL >= 1200px */
+@media (min-width: 1200px) {
+    h1 {
+        color: gold;
+    }
+}
+
+/* XXL >= 1400px */
+@media (min-width: 1400px) {
+    h1 {
+        color: teal;
+    }
 }
 
 .btn-primary {
     background-color: red;
     border: red;
+}
+
+.container {
+    background-color: #999;
+}
+
+.container-fluid {
+    background-color: #888;
+}
+
+/* Container Breakpoint */
+
+.container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+}
+.container-md {
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+}
+.container-lg {
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+}
+
+/* Grid */
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col, .col-4, .col-2, .col-11, .col-1{
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
 }
