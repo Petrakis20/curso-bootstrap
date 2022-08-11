@@ -1,0 +1,22 @@
+.container {
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.row {
+    height: 300px;
+    margin: 0;
+}
+
+.col{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.impar {
+    background-color: black;
+}
+
+.par {
+    background-color: #cecece;
+}

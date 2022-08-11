@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,6 +88,156 @@
             <div class="col-4"></div>
         </div>
     </div>
+
+    <div class="container" id="largura-limitada">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <!-- Limitação de Colunas -->
+    <div class="container">
+      <div class="row row-cols-2">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+      <div class="row row-cols-2">
+        <div class="col"></div>
+        <div class="col"></div>
+      </div>
+    </div>
+
+    <!-- Alinhamento Vertical -->
+    <div class="container vertical">
+      <div class="row align-items-center">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+      </div>
+    </div>
+
+    <!-- Alinhamento Horizontal -->
+    <div class="container vertical">
+      <div class="row justify-content-end">
+        <div class="col-3"></div>
+        <div class="col-3"></div>
+      </div>
+    </div>
+
+    <!-- Alinhamento de item -->
+    <div class="container vertical">
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3 align-self-center"></div>
+        <div class="col-3"></div>
+        <div class="col-3 align-self-center"></div>
+      </div>
+    </div>
+
+    <div class="container vertical">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 align-self-center"></div>
+        <div class="col-4 align-self-end"></div>
+      </div>
+    </div>
+
+    <!-- Ordem -->
+    <div class="container vertical">
+      <div class="row">
+        <div class="col-sm-12 col-3 order-3">3</div>
+        <div class="col-sm-12 col-3 order-1">1</div>
+        <div class="col-sm-12 col-3 order-4">4</div>
+        <div class="col-sm-12 col-3 order-2">2</div>
+      </div>
+    </div>
+
+    <!-- Offset -->
+    <div class="container vertical" id="offset">
+      <div class="row">
+        <div class="col-md-3 offset-md-1"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-5"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-6"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-7"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-8"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-9"></div>
+      </div>
+    </div>
+
+    <!-- Gutters -->
+
+    <div class="container" id="gutter">
+      <div class="row gx-4">
+        <div class="col">
+          <p>GX</p>
+        </div>
+        <div class="col">
+          <p>GX</p>
+        </div>
+      </div>
+      <div class="row gy-3">
+        <div class="col">
+          <p>GY</p>
+        </div>
+        <div class="col">
+          <p>GY</p>
+        </div>
+      </div>
+      <div class="row g-5">
+        <div class="col-6">
+          <p>G</p>
+        </div>
+        <div class="col-6">
+          <p>G</p>
+        </div>
+        <div class="col-6">
+          <p>G</p>
+        </div>
+        <div class="col-6">
+          <p>G</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
