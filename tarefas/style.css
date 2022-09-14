@@ -1,22 +1,40 @@
 .container {
-    padding: 50px;
+    border: 2px dashed black;
     margin-top: 30px;
 }
 
 .row {
-    height: 300px;
-    margin: 0;
+    border: 2px solid blue;
+    height: 100px;
 }
 
-.col{
-    border: 1px solid red;
-    padding: 20px;
+.col-6 {
+    border: 2px dashed gray;
+    height: 50px;
+    margin: 0; 
+    padding-top: 5px;
 }
 
-.impar {
-    background-color: black;
+p {
+    text-align: center;
+    padding-top: 3px; 
 }
 
-.par {
-    background-color: #cecece;
+i {
+    padding-right: 20px;
+}
+
+.bi.bi-cart3 {
+    font-size: 20px;
+    color: green;
+}
+
+.bi.bi-download {
+    font-size: 20px;
+    color: blue;
+}
+
+.bi.bi-caret-down-fill {
+    font-size: 20px;
+    color: gold;
 }
