@@ -11,7 +11,8 @@
 </head>
 <body>
     
-    <!-- HEADINGS -->
+    <div class="container">
+        <!-- HEADINGS -->
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
     <h3>Heading 3</h3>
@@ -39,6 +40,128 @@
 
     <p>O <strong>Produto X</strong> é o melhor do mercado!</p>
     
+    <!-- CITAÇÕES -->
+    <blockquote class="blockquote">
+        <p>HTML e CSS são as bases do Bootstrap</p>
+    </blockquote>
 
+    <figure>
+        <blockquote class="blockquote">
+            Não deixe o ruído das opiniões dos outros abafar a sua própria voz interior
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Uma frase de <cite title="Steve Jobs">Steve Jobs</cite>
+        </figcaption>
+    </figure>
+
+    <!-- LISTAS -->
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <h2>Lista sem estilo</h2>
+    
+    <ul class="list-unstyled">
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <h2>Lista inline</h2>
+    <ul class="list-inline">   
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </ul>
+
+    <!-- IMAGENS -->
+    <!-- <div class="col-md-4 m4 ">
+        <img src="img/g_1.jpg">
+    </div> -->
+
+    <div class="col-md-4 m-4">
+        <img class="img-fluid"  src="img/g_1.jpg">
+    </div>
+
+    <!-- THUMBNAIL -->
+    <div class="col-md-4 m-4">
+        <img class="img-fluid img-thumbnail"  src="img/40---jca-pet-maior.png" alt="">
+    </div>
+
+    <!-- FIGURE -->
+    <div class="col-md-3 m-4">
+        <figure class="figure">
+            <img class="figure-img img-fluid rounded" src="img/g_1.jpg">
+            <figcaption class="figure-caption">
+                Grafite da Av. Paulista
+            </figcaption>
+        </figure>
+    </div>
+
+    <!-- TABELAS -->
+    <div class="col-">
+        <table class="table m-4">
+            <thead>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Sobrenome</th>
+                <th scope="col">Email</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Matheus</td>
+                    <td>Petrakis</td>
+                    <td>matheuspetrakis@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Pedro Henrique</td>
+                    <td>Petrakis</td>
+                    <td>phpetrakis@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Carlos</td>
+                    <td></td>
+                    <td>carlos@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-6 m-4">
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Produto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Geladeira</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Fogão</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>TV</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Microondas</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    </div>
 </body>
 </html>
