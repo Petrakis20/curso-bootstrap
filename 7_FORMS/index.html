@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulários</title>
+</head>
+<body>
+
+    <!-- Criando Form -->
+
+    <div class="col-4 m-4">
+        <h2>Formulário de Registro</h2>
+        <form>
+            <div class="mb-4">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="Insira seu e-mail">
+                <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail</div>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="form-label">Senha:</label>
+                <input type="password" name="password" id="password" class="form-control" placeholder="Insira a sua senha">
+            </div>
+            <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+
+    </div>
+
+    <!-- Form desabilitado -->
+
+    <div class="col-4 m-4">
+        <h2>Formulário Desabilitado</h2>
+        <form>
+            <fieldset disabled>
+                <div class="mb-4">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" class="form-control" aria-describedby="emailHelp" placeholder="Insira seu e-mail" disabled>
+                    <div id="emailHelp" class="form-text">Não compartilhamos seu endereço de e-mail</div>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">Senha:</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Insira a sua senha">
+                </div>
+                <!-- <input type="submit" class="btn btn-primary" value="Cadastrar"> -->
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Form Control -->
+    
+    <div class="m-4">
+        <h2>Crie seu Post</h2>
+        <form>
+            <div class="col-4 mb-4">
+                <label for="title" class="form-label">Título do Post:</label>
+                <input type="text" name="" id="title" class="form-control form-control-sm" placeholder="Digite seu título">
+            </div>
+            <div class="col-4 mb-4">
+                <label for="content" class="form-label">Conteúdo:</label>
+                <textarea class="form-control" placeholder="Digite o conteúdo do post..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+    <div class="m-4">
+        <h2>Crie seu Post</h2>
+        <form>
+            <div class="col-4 mb-4">
+                <label for="title" class="form-label">Título do Post:</label>
+                <input type="text" name="" id="title" class="form-control form-control-lg" placeholder="Digite seu título">
+            </div>
+            <div class="col-4 mb-4">
+                <label for="content" class="form-label">Conteúdo:</label>
+                <textarea class="form-control form-control-lg" placeholder="Digite o conteúdo do post..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
