@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Formulários</title>
 </head>
@@ -83,5 +82,97 @@
         </form>
     </div>
 
+    <!-- Read Only -->
+
+    <div class="col-4 m-4">
+        <h2>Formulário de Read Only</h2>
+        <form>
+            <div class="mb-4">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email2" id="email2" class="form-control" placeholder="Insira seu e-mail" readonly value="matheuspetrakis@gmail.com">
+            </div>
+            <div class="mb-4">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email3" id="email3" class="form-control-plaintext" placeholder="Insira seu e-mail" readonly value="matheuspetrakis@email.com">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+    <!-- Input de Arquivos -->
+
+    <div class="col-4 m-4">
+        <h2>Teste de input de arquivos</h2>
+        <form>
+            <div class="mb-4">
+                <label for="foto" class="form-label">Apenas um arquivo:</label>
+                <input type="file" class="form-control" id="foto">
+            </div>
+        </form>
+    </div>
+    <div class="col-4 m-4">
+        <h2>Teste de input de arquivos</h2>
+        <form>
+            <div class="mb-4">
+                <label for="foto" class="form-label">Multiplos arquivos:</label>
+                <input type="file" class="form-control" id="foto" multiple>
+            </div>
+        </form>
+    </div>
+    <div class="col-4 m-4">
+        <h2>Teste de input de arquivos</h2>
+        <form>
+            <div class="mb-4">
+                <label for="foto" class="form-label">Input file desabilitado:</label>
+                <input type="file" class="form-control" id="foto" multiple disabled>
+            </div>
+        </form>
+    </div>
+
+    <!-- Outros Elementos -->
+
+    <div class="col-4 m-4">
+        <h2>Outros Inputs</h2>
+        <form>
+            <!-- Data List -->
+            <div class="mb-4">
+                <label for="cidades" class="form-label">Selecione uma Cidade</label>
+                <input class="form-control" list="datalistOptions" id="cidades" placeholder="Busque a sua cidade...">
+
+                <datalist class="datalistOptions">
+                    <option value="São Paulo"></option>
+                    <option value="Rio de Janeiro"></option>
+                    <option value="Florianópolis"></option>
+                    <option value="Porto Alegre"></option>
+                </datalist>
+            </div>
+
+            <!-- Cor -->
+
+            <div class="mb-4">
+                <label for="cor" class="form-label">Selecione a cor:</label>
+                <input type="color" class="form-control form-control-color" id="dor" value="#000" title="Escolha uma cor">
+            </div>
+
+            <!-- Select -->
+
+            <div class="mb-4">
+                <label for="opcoes" class="form-label">Selecione a sua:</label>
+                <select class="form-select" name="opcoes" id="opcoes">
+                    <option selected>Selecione uma opção</option>
+                    <option value="1">Primeira</option>
+                    <option value="2">Segunda</option>
+                    <option value="3">Terceira</option>
+                    <option value="4">Quarta</option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
